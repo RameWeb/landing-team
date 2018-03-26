@@ -10,8 +10,9 @@ body {
   color: #333;
   font-size: 14px;
   font-weight: 400;
-  /* background: #fff; */
+  background: #fff;
   overflow-x: hidden;
+
 }
 
 html {
@@ -109,7 +110,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   Hero area
    ========================================================================== */
    #hero-area {
-    background-image: url(../img/rioceleste.jpg) !important;
+    background-image: url(../img/hero1.png) !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -243,13 +244,13 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
     line-height: 26px;
   }
   
-  #valores .box-item:hover .icon {
+  /* #valores .box-item:hover .icon {
     background: #61D2B4;
   }
-  
-  #valores .box-item:hover .icon i {
+   */
+  /* #valores .box-item:hover .icon i {
     color: #ffffff;
-  }
+  } */
   
   #valores .show-box img {
     position: absolute;
@@ -669,26 +670,19 @@ button:focus {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  background-color: #61D2B4;
 }
 
 .item-boxes .icon i {
   font-size: 26px;
   line-height: 60px;
-  color: #61D2B4;
+  color: #fff;
 }
 
 .item-boxes h4 {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
-}
-
-.item-boxes:hover .icon {
-  background: #61D2B4;
-}
-
-.item-boxes:hover .icon i {
-  color: #fff;
 }
 
 /* ==========================================================================
